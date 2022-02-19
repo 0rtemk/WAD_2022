@@ -1,0 +1,40 @@
+<nav>
+    <h1>
+        Задание 1
+    </h1>
+    <ol class = "col-auto">
+        <li>
+            <strong>Авторизация</strong> 
+        </li>
+        <li>
+            <a href="login.php" class = "col-auto">Клик</a>
+        </li>
+    </ol>
+</nav>
+
+<main>
+    <div class = "div_border">
+        <div class = "div_border2">
+            <h1>
+                Страница Регистрации
+            </h1>
+            <form action="reg.php" method="post">
+                <div>
+                    <div class="col-auto div_main">
+                        <label for="action">Логин</label>
+                        <input type="text" name="login" pattern="[A-Za-z0-9]+" required style="width: 200px;">
+                    </div>
+                    
+                    <div class="col-auto div_main">
+                        <label for="action">Пароль</label>
+                        <input type="password" name="password" required style="width: 200px;">
+                    </div>
+                    
+                    <div class="col-auto div_main">
+                        <input type="submit" value="Зарегiстрироваться" class="btn btn-primary mb-3" style="width: 200px;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
